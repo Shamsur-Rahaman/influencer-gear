@@ -7,11 +7,25 @@ body {
 
 }
 
+.popular-brands {
+    text-align: center;
+    align-items: center;
+    height: 110px;
+    width: 1110px;
+    padding: 20px;
+}
+
+.popular-brands hr {
+
+    color: lightslategray;
+}
+
 .popular-collection {
+
     width: 1047px;
     font-family: 'Poppins', sans-serif;
-    justify-content: center;
     line-height: 1em;
+
 
 }
 
@@ -25,16 +39,20 @@ body {
 .popular-items {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    background-color: rgb(170, 170, 170, .5);
-
+    gap: 10px;
+    padding: 10px 0px 10px 10px;
 }
 
 .popular-card {
-    margin-top: 10px;
     width: 329px;
     background-color: white;
 }
 
+#cards {
+    border: 2px solid whitesmoke;
+    padding: 10px;
+    box-shadow: 5px 5px 5px 15px rgb(170, 170, 170, .8);
+}
 
 .popular-img {
     width: 300px;
@@ -45,7 +63,7 @@ body {
 
 .popular-h1 {
     font-size: 28px;
-    font-weight: 600;
+    font-weight: 500;
     padding: 0px 14px 0px 14px;
     color: #18191F;
 }
@@ -61,4 +79,13 @@ body {
 .popular-p {
     color: #787885;
     padding: 0px 14px 0px 14px;
+    font-weight: 700;
+    size: 14px;
+}
+
+.popular-p i {
+
+    color: goldenrod;
+    font-weight: 700;
+    size: 14px;
 }
